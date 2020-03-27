@@ -1,0 +1,14 @@
+<!--div class="container">
+
+    <div class="jumbotron">
+        <div class="card  text-white bg-dark border-primary" >
+            <div class="card-header border-success">Qote of the day.</div>
+           <div *ngFor='let DailyQuote of DailyQuotes' >
+              <div *ngIf='DailyQuote.DayOfWeek == dayInString' class="card-body">
+                <h5 class="card-title">Today is : <span class="text-primary">{{DailyQuote.DayOfWeek}}</span></h5>
+                <p class="card-text">" <span class="text-warning">{{DailyQuote.DayQuote}}</span> " ❤️</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>

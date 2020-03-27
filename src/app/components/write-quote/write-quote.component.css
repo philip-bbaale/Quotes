@@ -1,0 +1,12 @@
+/*.container{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+.alert{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid yellowgreen;
+}
+.btn{
+    margin-bottom: 20px;
+}
