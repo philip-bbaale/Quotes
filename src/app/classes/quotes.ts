@@ -1,4 +1,4 @@
-/*export class Quotes {
+export class Quotes {
     names:string;
     quote:string;
     email:string;
