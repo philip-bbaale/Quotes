@@ -1,4 +1,4 @@
-/*import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Quotes } from '../../classes/quotes';
 
 @Component({
