@@ -1,4 +1,4 @@
-/*import { Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { Quotes } from './classes/quotes';
 import { EmailValidator } from '@angular/forms';
 
