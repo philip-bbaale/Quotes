@@ -7,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VoteComponent implements OnInit {
 
-  numberOfUpVote:number;
-  numberOfDownVote:number;
+  numberOfUpVote:number =0;
+  numberOfDownVote:number=0;
+
+  likeButtonClick(){
+    this.numberOfUpVote++;
+  }
+  dislikeButtonClick(){
+    this.numberOfDownVote++;
+  }
 
   constructor() { }
 

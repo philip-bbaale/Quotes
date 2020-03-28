@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Quotes } from '../../classes/quotes';
+import { VoteComponent} from '../vote/vote.component'
 
 
 @Component({
@@ -22,6 +23,7 @@ export class QuoteComponent implements OnInit {
     {names:'Meshak Victor', quote:"Simplicity is complex. It's never simple to keep things simple. Simple solutions require the most advanced thinking.", email:'meshak@gmail.com'}
   ]
 
+  
   addNewQuote(quote){
     this.quotes.unshift(quote)
   }
@@ -29,6 +31,7 @@ export class QuoteComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  
   }
 
 }
