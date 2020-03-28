@@ -28,6 +28,9 @@ export class QuoteComponent implements OnInit {
     this.quotes.unshift(quote)
   }
   
+  quoteDelete(quote){
+    this.quotes.splice(quote.quote,1);
+  }
   constructor() { }
 
   ngOnInit(): void {
