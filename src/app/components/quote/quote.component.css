@@ -2,5 +2,9 @@
     margin: 30px;
 }
 .delete_btn{
+    float: left;
     margin: 5px;
+}
+.butoons{
+    margin-top: 10px;
 }

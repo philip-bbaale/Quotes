@@ -1,0 +1,9 @@
+.vote_btns{
+    float: right;
+}
+.up_vote{
+    margin: 5px;
+}
+.down-vote{
+    margin: 5px;
+}
