@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DailyQuoteComponent } from './components/daily-quote/daily-quote.component';
 import { WriteQuoteComponent } from './components/write-quote/write-quote.component';
+import { QuoteComponent } from './components/quote/quote.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DailyQuoteComponent,
-    WriteQuoteComponent
+    WriteQuoteComponent,
+    QuoteComponent
   ],
   imports: [
     BrowserModule,

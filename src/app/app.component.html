@@ -5,26 +5,8 @@
 </div>
 <div class="div_space"></div>
 <app-daily-quote></app-daily-quote>
-<app-write-quote (addQuote)="addNewQuote($event)"></app-write-quote>
+<app-quote></app-quote>
 
-<div class="container">  
-
-  <div class="card bg-primary text-white text-center p-3 quote_card border-success" *ngFor='let quote of quotes'>
-    <blockquote class="blockquote mb-0">
-      <p>{{quote.quote}}</p>
-      <footer class="blockquote-footer text-white">
-        <small>
-          Author: <cite title="Source Title">{{quote.names}}</cite>
-        </small>
-      </footer>
-    </blockquote>
-
-    <div class="row">
-      <button type="button" class="btn btn-secondary col-3 delete_btn">Delete</button>
-    </div>
-  </div>
-
-</div>
 
 
 
