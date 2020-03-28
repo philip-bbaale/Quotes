@@ -13,7 +13,7 @@
                 <!--Display {{newQoute.names}}-->
             </div>
             <div class="col">
-              <input type="text" class="form-control" id="email" placeholder="Email" [(ngModel)]="newQoute.email" name="email" #email='ngModel' required>
+              <input type="email" class="form-control" id="email" placeholder="Email" [(ngModel)]="newQoute.email" name="email" #email='ngModel' required>
               <div [hidden]="email.valid || email.pristine" class="alert alert-danger">
                 <p>Email is required</p>
               </div>

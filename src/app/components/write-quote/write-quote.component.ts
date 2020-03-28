@@ -13,6 +13,7 @@ export class WriteQuoteComponent implements OnInit {
 
   submitQuote(){
     this.addQuote.emit(this.newQoute);
+    this.newQoute = new Quotes();
   }
   constructor() { }
 

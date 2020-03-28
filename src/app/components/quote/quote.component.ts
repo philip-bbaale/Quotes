@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Quotes } from '../../classes/quotes';
 import { VoteComponent} from '../vote/vote.component'
 
@@ -24,14 +24,19 @@ export class QuoteComponent implements OnInit {
   ]
 
   
+
   addNewQuote(quote){
     this.quotes.unshift(quote)
   }
   
   quoteDelete(quote){
-    this.quotes.splice(quote.quote,1);
+    let toDelete = confirm(`Are you sure you want to delete this quote?`)
+    if (toDelete){
+      this.quotes.splice(quote.quote,1);
+    }
   }
-  constructor() { }
+  
+  constructor() {}
 
   ngOnInit(): void {
   
