@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
 
   quotes:Quotes[]=[
     {names:'Bbaale Philip', quote:'To be young is to be ausome.', email:'namugera.philip@gmail.com'},
-    {names:'Benita Kafrika', quote:'If you want to be successful, its just this simple. Know what you are doing. Love what you are doing. And believe in what you are doing.', email:'bkafrika@gmail.com'},
+    {names:'Benita Kafrika', quote:'You can search throughout the entire universe for someone who is more deserving of your love and affection than you are yourself, and that person is not to be found anywhere. You yourself, as much as anybody in the entire universe deserve your love and affection.', email:'bkafrika@gmail.com'},
     {names:'JudeMartin', quote:"Issues are never simple. One thing I'm proud of is that very rarely will you hear me simplify the issues.", email:'judebbaale@gmail.com'},
     {names:'Mackenzie', quote:"It would be so simple to allow children, when tired of sitting, to rise, and when tired of writing, to desist, and then their bones would not be twisted.", email:'mackenzie@gmail.com'},
     {names:'Patricia', quote:"Tramping is too easy with all this money. My days were more exciting when I was penniless and had to forage around for my next meal... I've decided that I'm going to live this life for some time to come. The freedom and simple beauty of it is just too good to pass up.", email:'patricia@gmail.com'},
