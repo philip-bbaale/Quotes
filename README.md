@@ -1,27 +1,36 @@
-# QouteApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+# Project name:Quote App.
 
-## Development server
+# App Screenshot.
+<img src="">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Project description:
+An application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+## Live App
+> https://scrupycoco.github.io/Quotes/
+# Author(s) information: 
+> Namugera Bbaale Philip
 
-## Code scaffolding
+# Setup instructions:
+> Feeling Inspired or Good. Speak your poetry with a Quote.
+* Imput your name, email, quote & publish it.
+* You can also like and dislike quotes.
+* Delete quotes that are uninspirational.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Technologies used: 
+* angular
+* html, 
+* css, 
+* bootstrap, 
+* typescript
+ 
+ # Known Bugs.
+ > No server/database to store quotes.
+ > Delete any quote.
+ > Unlimited number of likes and dislikes.
+ 
+# Contact information.
+> To collaborate, reach me on namugera.philip@gmail.com
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# License and Copyright information.
+> The MIT License (MIT) Copyright © 2020 Namugera Bbaale Philip.
