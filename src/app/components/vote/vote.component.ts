@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { QuoteComponent } from 'src/app/components/quote/quote.component'
 
 @Component({
@@ -8,14 +8,17 @@ import { QuoteComponent } from 'src/app/components/quote/quote.component'
 })
 export class VoteComponent implements OnInit {
 
-  numberOfUpVote:number =0;
-  numberOfDownVote:number=0;
+  /*numberOfUpVote:any =0;
+  numberOfDownVote:any=0;*/
+
+  numberOfUpVotes = QuoteComponent["quote.numberOfUpVotes"];
+  numberOfDownVotes: any = QuoteComponent.quotes;
  
-  likeButtonClick(){
-    this.numberOfUpVote++;
+  likeButtonClick(numberOfDownVote){
+    this.numberOfUpVotes++;
   }
   dislikeButtonClick(){
-    this.numberOfDownVote++;
+    this.numberOfDownVotes++;
   }
 
   constructor() { }
