@@ -1,11 +1,11 @@
 
 # Project name:Quote App.
-
-# App Screenshot.
-<img src="">
-
 # Project description:
 An application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+
+# App Screenshot.
+<img src="https://github.com/scrupycoco/Quotes/blob/master/src/images/screenshot.png">
+
 ## Live App
 > https://scrupycoco.github.io/Quotes/
 # Author(s) information: 
