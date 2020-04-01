@@ -11,7 +11,7 @@ export class VoteComponent implements OnInit {
   /*numberOfUpVote:any =0;
   numberOfDownVote:any=0;*/
 
-  numberOfUpVotes = QuoteComponent["quote.numberOfUpVotes"];
+  /*numberOfUpVotes = QuoteComponent.
   numberOfDownVotes: any = QuoteComponent.quotes;
  
   likeButtonClick(numberOfDownVote){
@@ -19,7 +19,7 @@ export class VoteComponent implements OnInit {
   }
   dislikeButtonClick(){
     this.numberOfDownVotes++;
-  }
+  }*/
 
   constructor() { }
 

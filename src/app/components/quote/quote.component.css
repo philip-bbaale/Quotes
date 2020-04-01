@@ -8,3 +8,21 @@
 .butoons{
     margin-top: 10px;
 }
+.vote_btns{
+    float: right;  
+    width: auto;
+}
+.up_vote{
+    margin: 5px;
+}
+.down-vote{
+    margin: 5px;
+}
+.like_gp{
+    display: inline-block;
+    margin-right: 5px;
+}
+.dislike_gp{
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -2,9 +2,9 @@ import { VoteComponent } from '../components/vote/vote.component'
 
 
 export class Quotes {
-    names:string;
-    quote:string;
-    email:string;
-    numberOfUpVotes:number;
-    numberOfDownVotes:number
+    public names:string;
+    public quote:string;
+    public email:string;
+    public numberOfUpVotes:number=0;
+    public numberOfDownVotes:number=0;
 }
