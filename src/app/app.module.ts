@@ -9,6 +9,7 @@ import { DailyQuoteComponent } from './components/daily-quote/daily-quote.compon
 import { WriteQuoteComponent } from './components/write-quote/write-quote.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { VoteComponent } from './components/vote/vote.component';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { VoteComponent } from './components/vote/vote.component';
     DailyQuoteComponent,
     WriteQuoteComponent,
     QuoteComponent,
-    VoteComponent
+    VoteComponent,
+    DateAgoPipe
   ],
   imports: [
     BrowserModule,
